@@ -141,9 +141,29 @@ a {
     background-color: #3882F6;
     border-radius: 12px;
     padding: 50px;
+    margin: 100px;
+    width: 1000px;
+    flex: 1;
+    justify-content: space-between;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+}
+
+.call-to-action .sign-up {
+    border: 2px solid white;
+    padding: 4px;
+}
+
+.action-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.action-description {
+    font-size: 18px;
+    color: #F9FAF8;
 }
