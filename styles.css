@@ -135,3 +135,12 @@ a {
     text-align: right;
     font-weight: 700;
 }
+
+.call-to-action {
+    display: flex;
+}
+
+.action-text .action-description {
+    display: flex;
+    flex-direction: column;
+}
