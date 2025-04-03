@@ -31,3 +31,23 @@ a {
     padding: 10px;
 }
 
+.title-block {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #1F2937;
+    width: 100%;
+    align-items: stretch;
+}
+
+.title-block img {
+    width: 200px;
+    height: auto;
+    padding-right: 200px;
+}
+
+.title-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
