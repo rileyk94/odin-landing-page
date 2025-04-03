@@ -138,9 +138,12 @@ a {
 
 .call-to-action {
     display: flex;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 50px;
 }
 
-.action-text .action-description {
+.container {
     display: flex;
     flex-direction: column;
 }
