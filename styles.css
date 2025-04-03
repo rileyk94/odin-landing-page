@@ -38,6 +38,7 @@ a {
     background-color: #1F2937;
     width: 100%;
     align-items: stretch;
+    color: #F9FAF8;
 }
 
 .title-block img {
@@ -50,4 +51,24 @@ a {
     display: flex;
     flex-direction: column;
     padding-left: 200px;
+    gap: 10px;
+}
+
+.title-left .title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.title-left .subtitle {
+    font-size: 18px;
+}
+
+.sign-up {
+    width: 100px;
+    padding: 8px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
 }
