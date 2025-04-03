@@ -86,6 +86,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .body-block ul {
@@ -110,4 +111,27 @@ a {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    width: 700px;
+    text-align: right;
+    font-weight: 700;
 }
