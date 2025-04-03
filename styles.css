@@ -81,3 +81,27 @@ a {
     color: #F9FAF8;
     font-weight: 700;
 }
+
+.body-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-block ul {
+    display: flex;
+    width: 200px;
+    flex: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.body-block img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.image-text {
+    text-align: center;
+}
